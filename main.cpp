@@ -10,7 +10,8 @@ int main() {
   const double e = 115.0;
   const double r = 29.7;
   int R = 10;
-  
+  // Предусловия
+  cout << "Цикл с предусловием: " << endl;
   while (R <= 300) {
     P = R * (pow((e / (R + r)), 2));
 
